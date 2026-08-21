@@ -1,0 +1,53 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and generated files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local databases, vector stores, and model/cache data
+chroma/
+chroma_db/
+.chromadb/
+*.sqlite
+*.sqlite3
+*.db
+.cache/
+.huggingface/
+
+# Jupyter and IPython runtime files
+.ipynb_checkpoints/
+profile_default/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
