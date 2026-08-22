@@ -3,6 +3,11 @@
 venv/
 env/
 ENV/
+.python-version
+
+# Environment manager and local tool files
+.conda/
+.direnv/
 
 # Python caches and generated files
 __pycache__/
@@ -20,6 +25,8 @@ htmlcov/
 !.env.example
 *.key
 *.pem
+.streamlit/secrets.toml
+.streamlit/config.toml
 
 # Local databases, vector stores, and model/cache data
 chroma/
@@ -28,6 +35,9 @@ chroma_db/
 *.sqlite
 *.sqlite3
 *.db
+*.parquet
+*.pkl
+*.pickle
 .cache/
 .huggingface/
 
@@ -51,3 +61,4 @@ dist/
 *.log
 *.tmp
 *.temp
+*.bak
